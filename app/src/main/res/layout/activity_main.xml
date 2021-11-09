@@ -28,17 +28,7 @@
         android:text="Submit"
         android:textAlignment="gravity"
         android:layout_margin="16dp"/>
-
-<!--    <androidx.recyclerview.widget.RecyclerView-->
-<!--        android:id="@+id/recyclerView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="0dp"-->
-<!--        android:layout_margin="1dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button"-->
-<!--        tools:listitem="@layout/item_note" />-->
+    
     <view class="androidx.appcompat.app.AlertController$RecycleListView"
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
