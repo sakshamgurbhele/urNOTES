@@ -43,6 +43,6 @@ class NotesRVAdapter(private val context: Context, private val listner: MainActi
          notifyDataSetChanged()
      }
 }
-interface INotesRVAdapter{
-    fun onItemClick(notes: Notes)
-}
+    interface INotesRVAdapter{
+        fun onItemClick(notes: Notes)
+    }
